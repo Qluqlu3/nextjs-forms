@@ -25,4 +25,5 @@ const Content = () => {
 
   return <Wrapper onClick={() => deleteItem(1)}></Wrapper>;
 };
+
 export default Content;
