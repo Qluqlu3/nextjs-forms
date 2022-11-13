@@ -3,7 +3,7 @@ import './App.css';
 const list1 = [[], []];
 const list2 = [{}, { a: 10, b: 20 }];
 const list3 = [{ aaa: 0 }, {}];
-const result = [...list1[0], ...list2];
+const result = [...list1[0], ...list2, ...list3];
 
 console.log(result);
 console.log(list1);
